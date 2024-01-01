@@ -69,7 +69,8 @@ The image below illustrates the infrastructure of the internet.
 
 When a source computer is transmitting information to a target computer, how do the packets find their way? Are the packets broadcasted to every computer connected to the internet? Does the source computer have knowledge of the location of the target computer? The answers to these questions are no and no. To guide the packets to their destination, we utilize "Routing Tables" located in routers connected to the internet.
 
-file:///home/nehru/workspace/30DaysofBackend/1.%20How%20does%20Internet%20work%3F/image-5.png
+![image-5](https://github.com/nehruperumalla/30DaysofBackend/assets/41884444/899832e4-5119-433f-826e-c5fb2d722b7e)
+
 
 
 Let's consider an example where I am sending a "Hello" message from a computer with the IP address 1.2.3.4 to my friend's computer with the IP address 5.6.7.8. Examining the flow using the above diagram, the black boxes connected to NSP and Regional ISP backbones represent routers.
