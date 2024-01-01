@@ -67,4 +67,26 @@ The image below illustrates the infrastructure of the internet.
 
 ## Internet Routing Hierarchy:
 
- 
+When a source computer is transmitting information to a target computer, how do the packets find their way? Are the packets broadcasted to every computer connected to the internet? Does the source computer have knowledge of the location of the target computer? The answers to these questions are no and no. To guide the packets to their destination, we utilize "Routing Tables" located in routers connected to the internet.
+
+file:///home/nehru/workspace/30DaysofBackend/1.%20How%20does%20Internet%20work%3F/image-5.png
+
+
+Let's consider an example where I am sending a "Hello" message from a computer with the IP address 1.2.3.4 to my friend's computer with the IP address 5.6.7.8. Examining the flow using the above diagram, the black boxes connected to NSP and Regional ISP backbones represent routers.
+
+We have two local area networks attached to computers. The packets are initially sent to the router connected to the Regional ISP. There, it checks the network with the destination IP in the routing tables of that router. If found, the packet is sent to that network; if not found, it moves up the backbone hierarchy to the next router, repeating the process. This continues until it reaches the NSP backbone, which holds the largest routing tables.
+
+## Domain Name Service:
+
+Up to this point, we've observed communication occurring between two computers based on their IP addresses. But what if we don't know the IP address and only have the server's name, like www.google.com? To address this issue, we have the Domain Name Service (DNS), which stores all the IP addresses corresponding to the textual representations of web server names.
+
+Numerous computers connected to the internet host portions of the DNS database along with the software enabling others to access it. These computers are referred to as DNS servers. No single DNS server holds the entire database; they each maintain a subset of it. If a DNS server lacks the requested domain name, it redirects the requesting computer to another DNS server.
+
+
+That's for How does Internet work.
+
+# References:
+
+https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm
+
+https://www.youtube.com/watch?v=TNQsmPf24go
