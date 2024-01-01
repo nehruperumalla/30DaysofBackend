@@ -12,7 +12,7 @@ The internet is present everywhere now – in your mobile, laptop, TV, air condi
 
 ## Internet Protocol(IP) Addresses
 
-Upon birth, individuals are named for identification, pets are given names, and animals are recognized by their breeds. Likewise, each system connected to the internet is assigned a distinct identity known as an IP Address. This address is presented in the format xxx.xxx.xxx.xxx, where each x can assume any value between 0 and 255, constituting an IPv4 address. As internet connectivity proliferates and the number of devices surges, the emergence of IPv6 becomes essential. IPv6 has a format of xxx.xxx.xxx.xxx.xxx.xxx, featuring 6 parts, with each x ranging from 0 to 255.
+Upon birth, individuals are named for identification, pets are given names, and animals are recognized by their breeds. Likewise, each system connected to the internet is assigned a distinct identity known as an IP Address. This address is presented in the format xxx.xxx.xxx.xxx, where each xxx can assume any value between 0 and 255, constituting an IPv4 address. As internet connectivity proliferates and the number of devices surges, the emergence of IPv6 becomes essential. IPv6 has a format of xxx.xxx.xxx.xxx.xxx.xxx, featuring 6 parts, with each xxx ranging from 0 to 255.
 
 ![image](https://github.com/nehruperumalla/30DaysofBackend/assets/41884444/9dd47a2c-ad53-4442-a1fb-2151255a1c53)
 
